@@ -41,7 +41,7 @@ Getting my repos for the LG Lucid (vs840)
 
 	$ cd lge
 
-	$ git clone https://github.com/playfulgod/android_device_lge_vs840.git vs840
+	$ git clone https://github.com/stcarlso/android_device_lge_vs840.git vs840
 
 Then cd to the kernel directory:
 
@@ -49,7 +49,7 @@ Then cd to the kernel directory:
 
 	$ mkdir lge
 
-	$ git clone https://github.com/playfulgod/lge-kernel-iproj iproj
+	$ git clone https://github.com/stcarlso/lge-kernel-iproj iproj
 
 Extract necessary binaries and proprietary files 
 ------------------------------------------------
