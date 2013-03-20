@@ -70,10 +70,13 @@ lib/lib_LG_fastaf_v2.0.so
 lib/libgemini.so
 lib/libchromatix_mt9p017_preview.so
 lib/hw/camera.msm8660.so
+lib/hw/gps.msm8660.so
 bin/ami304d
+bin/gpsone_daemon
 lib/libv8.so
 lib/libgpsone_bit_api.so
 lib/libgps.so
+lib/libcommondefs.so
 lib/libloc_api-rpc-qc.so
 lib/libloc_ext.so
 lib/liboem_rapi_fusion.so

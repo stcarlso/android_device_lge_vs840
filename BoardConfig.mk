@@ -8,7 +8,7 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 422576128
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 2147483648
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/lge/vs840/kernel
+TARGET_PREBUILT_KERNEL := device/lge/vs840/kernels/c
 
 # Build kernel from source
 TARGET_KERNEL_SOURCE := kernel/lge/iproj

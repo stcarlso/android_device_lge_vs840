@@ -186,7 +186,9 @@ on init
 # create mountpoints for storage
     mkdir /storage 0111 system system
     mkdir /storage/sdcard0 0000 system system
+	mkdir /storage/sdcard1 0000 system system
     symlink /storage/sdcard0 /sdcard
+	symlink /storage/sdcard1 /sd-ext
 
 on emmc-fs
     mkdir /system
@@ -234,10 +236,6 @@ on emmc-fs
     #wait /dev/block/mmcblk0p20
     exec /system/bin/e2fsck -y /dev/block/mmcblk0p20
     mount ext4 /dev/block/mmcblk0p20 /drm nosuid nodev barrier=1
-
-    # internal storage
-    mkdir /storage/sdcard1 0777 system system
-    mount vfat /dev/block/mmcblk0p30 /storage/sdcard1 nosuid nodev
 
     mkdir /tombstones 0771 system system
     mount ext4 /dev/block/mmcblk0p22 /tombstones nosuid nodev barrier=1

@@ -47,7 +47,7 @@ ro.cdma.home.operator.alpha=Verizon
 ro.cdma.home.operator.numeric=310004
 
 ## Wifi
-wifi.supplicant_scan_interval=20
+wifi.supplicant_scan_interval=10
 wifi.interface=wlan0
 
 ## Bluetooth
