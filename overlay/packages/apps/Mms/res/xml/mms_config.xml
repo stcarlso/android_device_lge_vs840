@@ -11,9 +11,9 @@
     <int name="maxMessageCountPerThread">5000</int>
     <bool name="enabledTransID">true</bool>
     <int name="recipientLimit">40</int>
-    <int name="smsToMmsTextThreshold">4</int>
+    <int name="smsToMmsTextThreshold">8</int>
     <string name="uaProfTagName">Profile</string>
-    <string name="userAgent">LGE-VS920/Android-mms\u0020</string>
+    <string name="userAgent">LGE-VS840/Android-mms\u0020</string>
     <string
-    name="uaProfUrl">http://uaprof.vtext.com/lg/vs920/vs920.xml</string>
+    name="uaProfUrl">http://uaprof.vtext.com/lg/vs840/vs840.xml</string>
 </mms_config>

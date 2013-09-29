@@ -387,8 +387,8 @@ on post-fs-data
 
     setprop vold.post_fs_data_done 1
 
-# XXX: This is the ugly CM chargerlogo, replace it
-service chargerlogo /charger
+# LG stock charger logo
+service chargerlogo /sbin/chargerlogo
     class charger
     user root
 
